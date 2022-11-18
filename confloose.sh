@@ -2,7 +2,7 @@
 echo 'nix profile install nixpkgs#lolcat
 nix profile install nixpkgs#sl' >> ~/afs/.confs/install.sh
 
-./~/afs/.conf/install.sh
+./~/afs/.confs/install.sh
 
 echo "alias ls='sl'" >> ~/.bashrc
 echo "alias cd='cd | lolcat'" >> ~/.bashrc
